@@ -124,14 +124,32 @@ else:
 
 ## Current Goals
 
-See [wintertodt-construction-plan.md](wintertodt-construction-plan.md) for the active game plan.
+Synced from [Todoist](https://todoist.com) — ⚔️ OSRS board column. See [wintertodt-construction-plan.md](wintertodt-construction-plan.md) for the full game plan.
 
-- [ ] 60 Woodcutting (currently 50)
-- [ ] Complete Daddy's Home mini-quest
-- [ ] 20 Construction (pre-Wintertodt)
-- [ ] 85+ Firemaking via Wintertodt
-- [ ] Tome of Fire
-- [ ] ~70 Construction via Mahogany Homes
+$(python3 -c "
+import json, os
+p = os.path.join('$DATA_DIR', 'todoist-osrs.json')
+if os.path.exists(p):
+    with open(p) as f:
+        data = json.load(f)
+    tasks = data.get('results', data) if isinstance(data, dict) else data
+    # Priority mapping (Todoist API is inverted: 4=P1, 1=P4)
+    icons = {4: '\U0001f534', 3: '\U0001f7e0', 2: '\U0001f535', 1: ''}
+    for t in tasks:
+        done = t.get('is_completed', False)
+        check = 'x' if done else ' '
+        icon = icons.get(t.get('priority', 1), '')
+        desc = t.get('description', '')
+        line = f'- [{check}] {icon} {t[\"content\"]}'
+        if desc:
+            # First line of description only
+            first = desc.split(chr(10))[0].strip()
+            if first:
+                line += f' — *{first}*'
+        print(line)
+else:
+    print('*Run fetch-todoist.sh to sync goals from Todoist.*')
+" 2>/dev/null)
 
 ## Data Sources
 

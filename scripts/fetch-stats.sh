@@ -28,4 +28,7 @@ echo "Fetching WikiSync data (quests, diaries, collection log)..."
 curl -sf "https://sync.runescape.wiki/runelite/player/$PLAYER/STANDARD" \
   | python3 -m json.tool > "$DATA_DIR/wikisync.json" 2>/dev/null || echo "WikiSync: no data yet (install plugin + log in)"
 
+echo "Fetching Todoist OSRS tasks..."
+"$SCRIPT_DIR/fetch-todoist.sh" 2>/dev/null || echo "Todoist: failed to fetch (check API key)"
+
 echo "Done. Data saved to $DATA_DIR/"

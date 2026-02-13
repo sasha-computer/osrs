@@ -9,7 +9,7 @@
 
 **Account type:** Ironman
 **Combat level:** 24
-**Last updated:** 2026-02-13 13:59 UTC
+**Last updated:** 2026-02-13 14:02 UTC
 
 ## Skills
 
@@ -48,14 +48,14 @@ See **[quests.md](quests.md)** for the full quest log.
 
 ## Current Goals
 
-See [wintertodt-construction-plan.md](wintertodt-construction-plan.md) for the active game plan.
+Synced from [Todoist](https://todoist.com) — ⚔️ OSRS board column. See [wintertodt-construction-plan.md](wintertodt-construction-plan.md) for the full game plan.
 
-- [ ] 60 Woodcutting (currently 50)
-- [ ] Complete Daddy's Home mini-quest
-- [ ] 20 Construction (pre-Wintertodt)
-- [ ] 85+ Firemaking via Wintertodt
-- [ ] Tome of Fire
-- [ ] ~70 Construction via Mahogany Homes
+- [ ] 🔴 Complete Daddy's Home mini-quest — *Speak to Marlo in NE Varrock (near Sawmill). Rewards: instant Construction 8, house unlock, free materials. No combat required.*
+- [ ] 🟠 Chop oaks to 60 Woodcutting (~4,600 logs) — *Seers' Village, oaks behind bank. BANK ALL LOGS. Currently level 50. ~15-17 hrs.*
+- [ ] 🟠 Convert 200 oak logs to planks, train Construction to 20 — *Varrock Sawmill (250gp/plank). Build Oak Chairs then Oak Larders in POH (Rimmington). Need 50k GP.*
+- [ ] 🟠 Grind Wintertodt to 85+ Firemaking (or Tome of Fire) — *Solo games, 13,500 pts each. Fletch kindling for bonus XP. Passive Con/WC/Fletch XP. Bank crate GP (~1M+ target). Currently FM 50.*
+- [ ] 🔵 Convert remaining oak logs to planks at Sawmill (~1.1M GP) — *Use Wintertodt GP to fund. ~4,400 logs x 250gp = 1.1M GP.*
+- [ ] 🔵 Grind Mahogany Homes with oak planks to ~70 Construction — *Novice Contracts (Falador/Varrock agents). ~2.5x XP per plank vs POH. Combined with Wintertodt passive Con XP should land 60-70.*
 
 ## Data Sources
 
