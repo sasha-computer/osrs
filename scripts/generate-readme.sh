@@ -77,7 +77,7 @@ cat > "$ROOT_DIR/README.md" << HEREDOC
 # WoodFiveMan — Ironman Progress
 
 > Old School RuneScape ironman account tracker. Updated manually or via script.
-> This is my only downtime activity and I think it shows a different side of me.
+> After a childhood of video games, this is the one that stuck. Cosy vibes, no rush.
 
 **Account type:** Ironman
 **Combat level:** $COMBAT_LVL
