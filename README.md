@@ -3,9 +3,13 @@
 > Old School RuneScape ironman account tracker. Updated manually or via script.
 > After a childhood of video games, this is the one that stuck. Cosy vibes, no rush.
 
+[![Wood Division Adventures #1](https://img.youtube.com/vi/SKdbje_ndE4/mqdefault.jpg)](https://www.youtube.com/watch?v=SKdbje_ndE4)
+
+*Where the name comes from. [Wood Division Adventures](https://www.youtube.com/watch?v=SKdbje_ndE4) -- the rank below Bronze.*
+
 **Account type:** Ironman
 **Combat level:** 24
-**Last updated:** 2026-02-13 13:44 UTC
+**Last updated:** 2026-02-13 13:52 UTC
 
 ## Skills
 
