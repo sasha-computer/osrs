@@ -9,7 +9,7 @@
 
 **Account type:** Ironman
 **Combat level:** 24
-**Last updated:** 2026-02-13 14:02 UTC
+**Last updated:** 2026-02-13 14:10 UTC
 
 ## Skills
 
@@ -51,6 +51,7 @@ See **[quests.md](quests.md)** for the full quest log.
 Synced from [Todoist](https://todoist.com) — ⚔️ OSRS board column. See [wintertodt-construction-plan.md](wintertodt-construction-plan.md) for the full game plan.
 
 - [ ] 🔴 Complete Daddy's Home mini-quest — *Speak to Marlo in NE Varrock (near Sawmill). Rewards: instant Construction 8, house unlock, free materials. No combat required.*
+- [ ] 🟠 Pick up Collection Log book from The Collector (Varrock Museum) — *Ground floor near stairs. Free item. Open it in-game and click through tabs so RuneLite plugin syncs to collectionlog.net. You're right there for Daddy's Home anyway.*
 - [ ] 🟠 Chop oaks to 60 Woodcutting (~4,600 logs) — *Seers' Village, oaks behind bank. BANK ALL LOGS. Currently level 50. ~15-17 hrs.*
 - [ ] 🟠 Convert 200 oak logs to planks, train Construction to 20 — *Varrock Sawmill (250gp/plank). Build Oak Chairs then Oak Larders in POH (Rimmington). Need 50k GP.*
 - [ ] 🟠 Grind Wintertodt to 85+ Firemaking (or Tome of Fire) — *Solo games, 13,500 pts each. Fletch kindling for bonus XP. Passive Con/WC/Fletch XP. Bank crate GP (~1M+ target). Currently FM 50.*
