@@ -6,7 +6,8 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DATA_DIR="$SCRIPT_DIR/../data"
 mkdir -p "$DATA_DIR"
 
-TOKEN=$("$HOME/.pi/agent/skills/1password-vault/scripts/read-secret.sh" "Todoist API" credential 2>/dev/null)
+# Use env var (GitHub Actions) or fall back to 1Password (local)
+TOKEN="${TODOIST_API_KEY:-$("$HOME/.pi/agent/skills/1password-vault/scripts/read-secret.sh" "Todoist API" credential 2>/dev/null)}"
 
 # Board project ID: 6g2C97C558gXwR47
 # OSRS section ID: 6g2CqcmPGVpH5rH7

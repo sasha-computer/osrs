@@ -1,0 +1,88 @@
+name: Update OSRS Stats
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # daily at 8am UTC
+  workflow_dispatch: {}   # manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch all data
+        run: |
+          ./scripts/fetch-stats.sh
+
+      - name: Generate README + quests
+        run: |
+          ./scripts/generate-readme.sh
+          ./scripts/generate-quests.sh
+
+      - name: Build commit message from diffs
+        id: diff
+        run: |
+          if ! git diff --quiet; then
+            MSG=$(python3 -c "
+          import json, os
+
+          changes = []
+
+          # Skill diffs
+          old_h = 'data/hiscores.json'
+          if os.path.exists(old_h):
+              # Compare git HEAD vs working tree
+              import subprocess
+              try:
+                  old = json.loads(subprocess.run(['git', 'show', 'HEAD:data/hiscores.json'], capture_output=True, text=True).stdout)
+                  with open(old_h) as f:
+                      new = json.load(f)
+                  old_skills = {s['name']: s for s in old['skills']}
+                  new_skills = {s['name']: s for s in new['skills']}
+                  for name in new_skills:
+                      o = old_skills.get(name, {})
+                      n = new_skills[name]
+                      if o.get('level', 0) != n.get('level', 0) and name != 'Overall':
+                          changes.append(f\"{name} {o.get('level', '?')} -> {n['level']}\")
+              except Exception:
+                  pass
+
+          # Quest diffs
+          old_w = 'data/wikisync.json'
+          if os.path.exists(old_w):
+              try:
+                  old = json.loads(subprocess.run(['git', 'show', 'HEAD:data/wikisync.json'], capture_output=True, text=True).stdout)
+                  with open(old_w) as f:
+                      new = json.load(f)
+                  old_done = set(q for q, v in old.get('quests', {}).items() if v == 2)
+                  new_done = set(q for q, v in new.get('quests', {}).items() if v == 2)
+                  added = new_done - old_done
+                  if added:
+                      changes.append(f'+{len(added)} quest{\"s\" if len(added) > 1 else \"\"}: {\", \".join(sorted(added))}')
+              except Exception:
+                  pass
+
+          if changes:
+              print('stats: ' + ', '.join(changes))
+          else:
+              print('stats: daily update')
+          ")
+            echo "msg=$MSG" >> "$GITHUB_OUTPUT"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "osrs-bot"
+          git config user.email "osrs-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "${{ steps.diff.outputs.msg }}"
+          git push
