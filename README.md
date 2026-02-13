@@ -9,7 +9,7 @@
 
 **Account type:** Ironman
 **Combat level:** 24
-**Last updated:** 2026-02-13 14:10 UTC
+**Last updated:** 2026-02-13 14:20 UTC
 
 ## Skills
 
