@@ -2,7 +2,7 @@ name: Update OSRS Stats
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # daily at 8am UTC
+    - cron: '12 10 * * *'  # daily at 10:12am UTC (off-hour to avoid GH Actions congestion)
   workflow_dispatch: {}   # manual trigger
 
 jobs:
