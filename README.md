@@ -9,7 +9,7 @@
 
 **Account type:** Ironman
 **Combat level:** 24
-**Last updated:** 2026-02-13 13:52 UTC
+**Last updated:** 2026-02-13 13:59 UTC
 
 ## Skills
 
@@ -37,6 +37,14 @@
 | Boss | KC |
 |------|---:|
 | *None yet -- time to start bossing* | - |
+
+## Quests
+
+See **[quests.md](quests.md)** for the full quest log.
+
+**18** / **211** completed
+
+`█░░░░░░░░░░░░░░░░░░░` 9%
 
 ## Current Goals
 

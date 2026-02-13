@@ -1,0 +1,229 @@
+# Quest Log — WoodFiveMan
+
+**18** / **211** quests completed | **1** in progress
+
+`█░░░░░░░░░░░░░░░░░░░` 9%
+
+## In Progress
+
+- 🔨 Daddy's Home
+
+## Completed
+
+- [x] Alfred Grimhand's Barcrawl
+- [x] Children of the Sun
+- [x] Client of Kourend
+- [x] Cook's Assistant
+- [x] Gertrude's Cat
+- [x] Imp Catcher
+- [x] Misthalin Mystery
+- [x] Monk's Friend
+- [x] Priest in Peril
+- [x] Prince Ali Rescue
+- [x] Romeo & Juliet
+- [x] Rune Mysteries
+- [x] Sheep Shearer
+- [x] The Feud
+- [x] The Restless Ghost
+- [x] Tutorial Island
+- [x] Witch's Potion
+- [x] X Marks the Spot
+
+## Not Started
+
+- [ ] A Kingdom Divided
+- [ ] A Night at the Theatre
+- [ ] A Porcine of Interest
+- [ ] A Soul's Bane
+- [ ] A Tail of Two Cats
+- [ ] A Taste of Hope
+- [ ] An Existential Crisis
+- [ ] Animal Magnetism
+- [ ] Another Slice of H.A.M.
+- [ ] At First Light
+- [ ] Barbarian Training
+- [ ] Bear Your Soul
+- [ ] Below Ice Mountain
+- [ ] Beneath Cursed Sands
+- [ ] Between a Rock...
+- [ ] Big Chompy Bird Hunting
+- [ ] Biohazard
+- [ ] Black Knights' Fortress
+- [ ] Bone Voyage
+- [ ] Burial at Sea
+- [ ] Cabin Fever
+- [ ] Clock Tower
+- [ ] Cold War
+- [ ] Contact!
+- [ ] Creature of Fenkenstrain
+- [ ] Current Affairs
+- [ ] Curse of the Empty Lord
+- [ ] Darkness of Hallowvale
+- [ ] Death Plateau
+- [ ] Death on the Isle
+- [ ] Death to the Dorgeshuun
+- [ ] Defender of Varrock
+- [ ] Demon Slayer
+- [ ] Desert Treasure I
+- [ ] Desert Treasure II - The Fallen Empire
+- [ ] Devious Minds
+- [ ] Doric's Quest
+- [ ] Dragon Slayer I
+- [ ] Dragon Slayer II
+- [ ] Dream Mentor
+- [ ] Druidic Ritual
+- [ ] Dwarf Cannon
+- [ ] Eadgar's Ruse
+- [ ] Eagles' Peak
+- [ ] Elemental Workshop I
+- [ ] Elemental Workshop II
+- [ ] Enakhra's Lament
+- [ ] Enlightened Journey
+- [ ] Enter the Abyss
+- [ ] Ernest the Chicken
+- [ ] Ethically Acquired Antiquities
+- [ ] Fairytale I - Growing Pains
+- [ ] Fairytale II - Cure a Queen
+- [ ] Family Crest
+- [ ] Family Pest
+- [ ] Fight Arena
+- [ ] Fishing Contest
+- [ ] Forgettable Tale...
+- [ ] Garden of Tranquillity
+- [ ] Getting Ahead
+- [ ] Ghosts Ahoy
+- [ ] Goblin Diplomacy
+- [ ] Grim Tales
+- [ ] Haunted Mine
+- [ ] Hazeel Cult
+- [ ] Heroes' Quest
+- [ ] His Faithful Servants
+- [ ] Holy Grail
+- [ ] Hopespear's Will
+- [ ] Horror from the Deep
+- [ ] Icthlarin's Little Helper
+- [ ] Impending Chaos
+- [ ] In Aid of the Myreque
+- [ ] In Search of Knowledge
+- [ ] In Search of the Myreque
+- [ ] Into the Tombs
+- [ ] Jungle Potion
+- [ ] King's Ransom
+- [ ] Lair of Tarn Razorlor
+- [ ] Land of the Goblins
+- [ ] Legends' Quest
+- [ ] Lost City
+- [ ] Lunar Diplomacy
+- [ ] Mage Arena I
+- [ ] Mage Arena II
+- [ ] Making Friends with My Arm
+- [ ] Making History
+- [ ] Meat and Greet
+- [ ] Merlin's Crystal
+- [ ] Monkey Madness I
+- [ ] Monkey Madness II
+- [ ] Mountain Daughter
+- [ ] Mourning's End Part I
+- [ ] Mourning's End Part II
+- [ ] Murder Mystery
+- [ ] My Arm's Big Adventure
+- [ ] Nature Spirit
+- [ ] Observatory Quest
+- [ ] Olaf's Quest
+- [ ] One Small Favour
+- [ ] Pandemonium
+- [ ] Perilous Moons
+- [ ] Pirate's Treasure
+- [ ] Plague City
+- [ ] Prying Times
+- [ ] Rag and Bone Man I
+- [ ] Rag and Bone Man II
+- [ ] Ratcatchers
+- [ ] Recipe for Disaster
+- [ ] Recipe for Disaster - Another Cook's Quest
+- [ ] Recipe for Disaster - Culinaromancer
+- [ ] Recipe for Disaster - Evil Dave
+- [ ] Recipe for Disaster - King Awowogei
+- [ ] Recipe for Disaster - Lumbridge Guide
+- [ ] Recipe for Disaster - Mountain Dwarf
+- [ ] Recipe for Disaster - Pirate Pete
+- [ ] Recipe for Disaster - Sir Amik Varze
+- [ ] Recipe for Disaster - Skrach Uglogwee
+- [ ] Recipe for Disaster - Wartface & Bentnoze
+- [ ] Recruitment Drive
+- [ ] Regicide
+- [ ] Roving Elves
+- [ ] Royal Trouble
+- [ ] Rum Deal
+- [ ] Scorpion Catcher
+- [ ] Scrambled!
+- [ ] Sea Slug
+- [ ] Secrets of the North
+- [ ] Shades of Mort'ton
+- [ ] Shadow of the Storm
+- [ ] Shadows of Custodia
+- [ ] Sheep Herder
+- [ ] Shield of Arrav
+- [ ] Shilo Village
+- [ ] Sins of the Father
+- [ ] Skippy and the Mogres
+- [ ] Sleeping Giants
+- [ ] Song of the Elves
+- [ ] Spirits of the Elid
+- [ ] Swan Song
+- [ ] Tai Bwo Wannai Trio
+- [ ] Tale of the Righteous
+- [ ] Tears of Guthix
+- [ ] Temple of Ikov
+- [ ] Temple of the Eye
+- [ ] The Ascent of Arceuus
+- [ ] The Corsair Curse
+- [ ] The Curse of Arrav
+- [ ] The Depths of Despair
+- [ ] The Dig Site
+- [ ] The Enchanted Key
+- [ ] The Eyes of Glouphrie
+- [ ] The Final Dawn
+- [ ] The Forsaken Tower
+- [ ] The Fremennik Exiles
+- [ ] The Fremennik Isles
+- [ ] The Fremennik Trials
+- [ ] The Frozen Door
+- [ ] The Garden of Death
+- [ ] The General's Shadow
+- [ ] The Giant Dwarf
+- [ ] The Golem
+- [ ] The Grand Tree
+- [ ] The Great Brain Robbery
+- [ ] The Hand in the Sand
+- [ ] The Heart of Darkness
+- [ ] The Knight's Sword
+- [ ] The Lost Tribe
+- [ ] The Path of Glouphrie
+- [ ] The Queen of Thieves
+- [ ] The Red Reef
+- [ ] The Ribbiting Tale of a Lily Pad Labour Dispute
+- [ ] The Slug Menace
+- [ ] The Tourist Trap
+- [ ] Throne of Miscellania
+- [ ] Tower of Life
+- [ ] Tree Gnome Village
+- [ ] Tribal Totem
+- [ ] Troll Romance
+- [ ] Troll Stronghold
+- [ ] Troubled Tortugans
+- [ ] Twilight's Promise
+- [ ] Underground Pass
+- [ ] Vale Totems
+- [ ] Vampyre Slayer
+- [ ] Wanted!
+- [ ] Watchtower
+- [ ] Waterfall Quest
+- [ ] What Lies Below
+- [ ] While Guthix Sleeps
+- [ ] Witch's House
+- [ ] Zogre Flesh Eaters
+
+---
+
+*Data from [WikiSync](https://oldschool.runescape.wiki/w/RuneScape:WikiSync). Log in with RuneLite to update.*

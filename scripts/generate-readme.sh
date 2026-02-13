@@ -99,6 +99,29 @@ $(echo -e "$SKILLS_TABLE")
 |------|---:|
 $BOSS_TABLE
 
+## Quests
+
+See **[quests.md](quests.md)** for the full quest log.
+
+$(python3 -c "
+import json, os
+p = os.path.join('$DATA_DIR', 'wikisync.json')
+if os.path.exists(p):
+    with open(p) as f:
+        data = json.load(f)
+    quests = data.get('quests', {})
+    done = len([v for v in quests.values() if v == 2])
+    total = len(quests)
+    pct = done / total if total else 0
+    filled = int(pct * 20)
+    bar = chr(9608) * filled + chr(9617) * (20 - filled)
+    print(f'**{done}** / **{total}** completed')
+    print()
+    print(f'\`{bar}\` {pct:.0%}')
+else:
+    print('*Install WikiSync plugin and log in to track quests.*')
+" 2>/dev/null)
+
 ## Current Goals
 
 See [wintertodt-construction-plan.md](wintertodt-construction-plan.md) for the active game plan.

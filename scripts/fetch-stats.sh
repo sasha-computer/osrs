@@ -24,4 +24,8 @@ echo "Fetching WOM achievements progress..."
 curl -sf "https://api.wiseoldman.net/v2/players/$PLAYER/achievements/progress" \
   | python3 -m json.tool > "$DATA_DIR/achievements.json"
 
+echo "Fetching WikiSync data (quests, diaries, collection log)..."
+curl -sf "https://sync.runescape.wiki/runelite/player/$PLAYER/STANDARD" \
+  | python3 -m json.tool > "$DATA_DIR/wikisync.json" 2>/dev/null || echo "WikiSync: no data yet (install plugin + log in)"
+
 echo "Done. Data saved to $DATA_DIR/"
