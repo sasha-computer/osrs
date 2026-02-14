@@ -60,6 +60,7 @@ export const EVENT_CONFIG: Record<
   LOGIN: { label: "Logged In", icon: "🟢", color: "#a6adc8" },
   LOGOUT: { label: "Logged Out", icon: "🔴", color: "#a6adc8" },
   XP_MILESTONE: { label: "XP Milestone", icon: "✨", color: "#f9e2af" },
+  CHAT: { label: "Chat", icon: "💬", color: "#a6adc8" },
 };
 
 export function getEventConfig(type: string) {
@@ -74,8 +75,10 @@ export function screenshotUrl(event: GameEvent): string | null {
 }
 
 export function timeAgo(dateStr: string): string {
-  const now = new Date();
+  if (!dateStr) return "";
   const date = new Date(dateStr);
+  if (isNaN(date.getTime())) return "";
+  const now = new Date();
   const seconds = Math.floor((now.getTime() - date.getTime()) / 1000);
 
   if (seconds < 60) return "just now";

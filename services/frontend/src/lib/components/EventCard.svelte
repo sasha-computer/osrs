@@ -17,7 +17,7 @@
         const skills = extra.levelledSkills as Record<string, number>;
         if (!skills) return "";
         return Object.entries(skills)
-          .map(([name, level]) => `${name} ${level}`)
+          .map(([name, level]) => `${name} to ${level}`)
           .join(", ");
       }
       case "LOOT": {
@@ -26,32 +26,57 @@
           quantity: number;
           priceEach: number;
         }>;
-        if (!items) return "";
+        const source = extra.source as string;
+        if (!items) return source || "";
         const total = items.reduce(
           (sum, i) => sum + i.quantity * i.priceEach,
           0
         );
-        return `${items.length} item${items.length !== 1 ? "s" : ""} (${total.toLocaleString()} gp)`;
+        const names = items.map((i) => i.quantity > 1 ? `${i.quantity}x ${i.name}` : i.name).join(", ");
+        return `${names}${source ? ` from ${source}` : ""}${total > 0 ? ` (${total.toLocaleString()} gp)` : ""}`;
       }
       case "QUEST":
         return (extra.questName as string) || "";
       case "DEATH": {
+        const killer = (extra.killerName as string) || "";
         const val = extra.valueLost as number;
-        return val ? `Lost ${val.toLocaleString()} gp` : "";
+        const parts = [];
+        if (killer) parts.push(`Killed by ${killer}`);
+        if (val) parts.push(`lost ${val.toLocaleString()} gp`);
+        return parts.join(", ") || "Died";
       }
       case "COLLECTION":
         return (extra.itemName as string) || "";
-      case "KILL_COUNT":
-      case "SLAYER":
-        return (extra.monster as string) || (extra.source as string) || "";
+      case "KILL_COUNT": {
+        const boss = (extra.boss as string) || (extra.source as string) || "";
+        const count = extra.count as number;
+        return count ? `${boss} (KC ${count})` : boss;
+      }
+      case "SLAYER": {
+        const task = (extra.slayerTask as string) || (extra.monster as string) || "";
+        const points = extra.slayerPoints as string;
+        return points ? `${task} (+${points} pts)` : task;
+      }
       case "PET":
         return "!!!";
       case "CLUE": {
         const tier = extra.clueType as string;
         const items = extra.items as Array<{ name: string }>;
-        if (tier) return tier;
-        if (items?.length) return items.map((i) => i.name).join(", ");
-        return "";
+        const parts = [];
+        if (tier) parts.push(tier);
+        if (items?.length) parts.push(items.map((i) => i.name).join(", "));
+        return parts.join(": ");
+      }
+      case "DIARY": {
+        const area = (extra.area as string) || "";
+        const difficulty = (extra.difficulty as string) || "";
+        return `${area} ${difficulty}`.trim();
+      }
+      case "COMBAT_ACHIEVEMENT":
+        return (extra.task as string) || "";
+      case "CHAT": {
+        const msg = (extra.message as string) || "";
+        return msg;
       }
       default:
         return "";
@@ -68,10 +93,6 @@
 
   {#if detail}
     <p class="event-detail">{detail}</p>
-  {/if}
-
-  {#if event.message && event.type !== "LOGIN" && event.type !== "LOGOUT"}
-    <p class="event-message">{event.message.replace(/%USERNAME%/g, event.player_name)}</p>
   {/if}
 
   {#if imgUrl}
@@ -122,12 +143,6 @@
     margin-top: 0.5rem;
     font-size: 1rem;
     color: var(--text);
-  }
-
-  .event-message {
-    margin-top: 0.25rem;
-    font-size: 0.85rem;
-    color: var(--subtext0);
   }
 
   .event-screenshot {
