@@ -29,7 +29,6 @@ migrate((app) => {
     ],
     indexes: [
       "CREATE INDEX idx_snapshots_player ON snapshots (player_name)",
-      "CREATE INDEX idx_snapshots_created ON snapshots (created)",
     ],
   })
 

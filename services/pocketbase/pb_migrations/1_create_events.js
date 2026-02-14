@@ -31,7 +31,6 @@ migrate((app) => {
     indexes: [
       "CREATE INDEX idx_events_type ON events (type)",
       "CREATE INDEX idx_events_player ON events (player_name)",
-      "CREATE INDEX idx_events_created ON events (created)",
     ],
   })
 
