@@ -9,28 +9,29 @@
 
 **Account type:** Ironman
 **Combat level:** 24
-**Last updated:** 2026-02-13 14:20 UTC
+**Last updated:** 2026-02-14 10:22 UTC
 
 ## Skills
 
 | Skill | Level | XP |
 |-------|------:|---:|
-| **Overall** | **411** | **915,327** |
+| **Overall** | **422** | **922,693** |
 | Attack | 9 | 1,072 |
 | Defence | 11 | 1,546 |
 | Strength | 25 | 8,058 |
 | Hitpoints | 21 | 5,022 |
 | Prayer | 18 | 3,682 |
-| Magic | 29 | 12,314 |
+| Magic | 29 | 12,349 |
 | Cooking | 14 | 2,345 |
-| Woodcutting | 50 | 101,932 |
+| Woodcutting | 50 | 107,894 |
 | Fishing | 9 | 1,040 |
 | Firemaking | 50 | 102,095 |
 | Crafting | 8 | 817 |
 | Smithing | 14 | 2,399 |
 | Mining | 21 | 5,130 |
-| Agility | 60 | 273,982 |
+| Agility | 60 | 274,002 |
 | Thieving | 63 | 393,868 |
+| Construction | 8 | 939 |
 
 ## Boss Kill Counts
 

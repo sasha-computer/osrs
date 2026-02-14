@@ -5,8 +5,8 @@
             "id": 0,
             "name": "Overall",
             "rank": -1,
-            "level": 411,
-            "xp": 915327
+            "level": 422,
+            "xp": 922693
         },
         {
             "id": 1,
@@ -55,7 +55,7 @@
             "name": "Magic",
             "rank": -1,
             "level": 29,
-            "xp": 12314
+            "xp": 12349
         },
         {
             "id": 8,
@@ -69,7 +69,7 @@
             "name": "Woodcutting",
             "rank": -1,
             "level": 50,
-            "xp": 101932
+            "xp": 107894
         },
         {
             "id": 10,
@@ -125,12 +125,12 @@
             "name": "Agility",
             "rank": -1,
             "level": 60,
-            "xp": 273982
+            "xp": 274002
         },
         {
             "id": 18,
             "name": "Thieving",
-            "rank": 1305470,
+            "rank": 1305961,
             "level": 63,
             "xp": 393868
         },
@@ -166,15 +166,15 @@
             "id": 23,
             "name": "Construction",
             "rank": -1,
-            "level": 1,
-            "xp": 0
+            "level": 8,
+            "xp": 939
         },
         {
             "id": 24,
             "name": "Sailing",
-            "rank": -1,
-            "level": 1,
-            "xp": 0
+            "rank": 686453,
+            "level": 5,
+            "xp": 410
         }
     ],
     "activities": [

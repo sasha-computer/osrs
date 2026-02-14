@@ -60,7 +60,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 273982,
+        "currentValue": 274002,
         "absoluteProgress": 0.021,
         "relativeProgress": 0.021
     },
@@ -73,7 +73,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 273982,
+        "currentValue": 274002,
         "absoluteProgress": 0.0055,
         "relativeProgress": 0
     },
@@ -86,7 +86,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 273982,
+        "currentValue": 274002,
         "absoluteProgress": 0.0027,
         "relativeProgress": 0
     },
@@ -99,7 +99,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 273982,
+        "currentValue": 274002,
         "absoluteProgress": 0.0014,
         "relativeProgress": 0
     },
@@ -1412,9 +1412,9 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
-        "absoluteProgress": 0,
-        "relativeProgress": 0
+        "currentValue": 939,
+        "absoluteProgress": 0.0001,
+        "relativeProgress": 0.0001
     },
     {
         "name": "50m Construction",
@@ -1425,7 +1425,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
+        "currentValue": 939,
         "absoluteProgress": 0,
         "relativeProgress": 0
     },
@@ -1438,7 +1438,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
+        "currentValue": 939,
         "absoluteProgress": 0,
         "relativeProgress": 0
     },
@@ -1451,7 +1451,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
+        "currentValue": 939,
         "absoluteProgress": 0,
         "relativeProgress": 0
     },
@@ -2972,7 +2972,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 12314,
+        "currentValue": 12349,
         "absoluteProgress": 0.0009,
         "relativeProgress": 0.0009
     },
@@ -2985,7 +2985,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 12314,
+        "currentValue": 12349,
         "absoluteProgress": 0.0002,
         "relativeProgress": 0
     },
@@ -2998,7 +2998,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 12314,
+        "currentValue": 12349,
         "absoluteProgress": 0.0001,
         "relativeProgress": 0
     },
@@ -3011,7 +3011,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 12314,
+        "currentValue": 12349,
         "absoluteProgress": 0.0001,
         "relativeProgress": 0
     },
@@ -3284,9 +3284,9 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
-        "absoluteProgress": 0.0091,
-        "relativeProgress": 0.0091
+        "currentValue": 922693,
+        "absoluteProgress": 0.0092,
+        "relativeProgress": 0.0092
     },
     {
         "name": "200m Overall Exp.",
@@ -3297,7 +3297,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
+        "currentValue": 922693,
         "absoluteProgress": 0.0046,
         "relativeProgress": 0
     },
@@ -3310,7 +3310,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
+        "currentValue": 922693,
         "absoluteProgress": 0.0018,
         "relativeProgress": 0
     },
@@ -3323,7 +3323,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
+        "currentValue": 922693,
         "absoluteProgress": 0.0009,
         "relativeProgress": 0
     },
@@ -3336,7 +3336,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
+        "currentValue": 922693,
         "absoluteProgress": 0.0005,
         "relativeProgress": 0
     },
@@ -3349,7 +3349,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
+        "currentValue": 922693,
         "absoluteProgress": 0.0002,
         "relativeProgress": 0
     },
@@ -3362,9 +3362,9 @@
         "measure": "levels",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 794961,
-        "absoluteProgress": 0.121,
-        "relativeProgress": 0.121
+        "currentValue": 802307,
+        "absoluteProgress": 0.1221,
+        "relativeProgress": 0.1221
     },
     {
         "name": "Base 70 Stats",
@@ -3375,8 +3375,8 @@
         "measure": "levels",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
-        "absoluteProgress": 0.0517,
+        "currentValue": 922693,
+        "absoluteProgress": 0.0521,
         "relativeProgress": 0
     },
     {
@@ -3388,8 +3388,8 @@
         "measure": "levels",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
-        "absoluteProgress": 0.0192,
+        "currentValue": 922693,
+        "absoluteProgress": 0.0194,
         "relativeProgress": 0
     },
     {
@@ -3401,8 +3401,8 @@
         "measure": "levels",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
-        "absoluteProgress": 0.0071,
+        "currentValue": 922693,
+        "absoluteProgress": 0.0072,
         "relativeProgress": 0
     },
     {
@@ -3414,7 +3414,7 @@
         "measure": "levels",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 915327,
+        "currentValue": 922693,
         "absoluteProgress": 0.0029,
         "relativeProgress": 0
     },
@@ -3687,7 +3687,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
+        "currentValue": 410,
         "absoluteProgress": 0,
         "relativeProgress": 0
     },
@@ -3700,7 +3700,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
+        "currentValue": 410,
         "absoluteProgress": 0,
         "relativeProgress": 0
     },
@@ -3713,7 +3713,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
+        "currentValue": 410,
         "absoluteProgress": 0,
         "relativeProgress": 0
     },
@@ -3726,7 +3726,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 0,
+        "currentValue": 410,
         "absoluteProgress": 0,
         "relativeProgress": 0
     },
@@ -5338,9 +5338,9 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 101932,
-        "absoluteProgress": 0.0078,
-        "relativeProgress": 0.0078
+        "currentValue": 107894,
+        "absoluteProgress": 0.0083,
+        "relativeProgress": 0.0083
     },
     {
         "name": "50m Woodcutting",
@@ -5351,8 +5351,8 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 101932,
-        "absoluteProgress": 0.002,
+        "currentValue": 107894,
+        "absoluteProgress": 0.0022,
         "relativeProgress": 0
     },
     {
@@ -5364,8 +5364,8 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 101932,
-        "absoluteProgress": 0.001,
+        "currentValue": 107894,
+        "absoluteProgress": 0.0011,
         "relativeProgress": 0
     },
     {
@@ -5377,7 +5377,7 @@
         "measure": "experience",
         "legacy": false,
         "createdAt": null,
-        "currentValue": 101932,
+        "currentValue": 107894,
         "absoluteProgress": 0.0005,
         "relativeProgress": 0
     },

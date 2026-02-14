@@ -7,57 +7,57 @@
     "status": "active",
     "country": null,
     "patron": false,
-    "exp": 915327,
-    "ehp": 13.16973,
+    "exp": 922693,
+    "ehp": 13.25797,
     "ehb": 0,
-    "ttm": 1767.07872,
-    "tt200m": 20532.50266699797,
+    "ttm": 1766.99048,
+    "tt200m": 20532.41442699797,
     "registeredAt": "2026-02-13T13:36:56.951Z",
-    "updatedAt": "2026-02-13T14:10:34.182Z",
-    "lastChangedAt": "2026-02-13T13:37:05.040Z",
+    "updatedAt": "2026-02-14T10:22:07.320Z",
+    "lastChangedAt": "2026-02-13T22:56:53.115Z",
     "lastImportedAt": null,
     "combatLevel": 24,
     "archive": null,
     "annotations": [],
     "latestSnapshot": {
-        "id": 331722603,
+        "id": 332047104,
         "playerId": 2965036,
-        "createdAt": "2026-02-13T14:10:34.182Z",
+        "createdAt": "2026-02-14T10:22:07.320Z",
         "importedAt": null,
         "data": {
             "skills": {
                 "overall": {
                     "metric": "overall",
-                    "experience": 915327,
-                    "rank": 723089,
-                    "level": 411,
-                    "ehp": 13.169729999999998
+                    "experience": 922693,
+                    "rank": 713001,
+                    "level": 422,
+                    "ehp": 13.257969999999998
                 },
                 "attack": {
                     "metric": "attack",
                     "experience": 1072,
-                    "rank": 1053636,
+                    "rank": 1053960,
                     "level": 9,
                     "ehp": 0
                 },
                 "defence": {
                     "metric": "defence",
                     "experience": 1546,
-                    "rank": 793677,
+                    "rank": 793937,
                     "level": 11,
                     "ehp": 0
                 },
                 "strength": {
                     "metric": "strength",
                     "experience": 8058,
-                    "rank": 796194,
+                    "rank": 796431,
                     "level": 25,
                     "ehp": 0.02686
                 },
                 "hitpoints": {
                     "metric": "hitpoints",
                     "experience": 5022,
-                    "rank": 872575,
+                    "rank": 872857,
                     "level": 21,
                     "ehp": 3e-05
                 },
@@ -71,70 +71,70 @@
                 "prayer": {
                     "metric": "prayer",
                     "experience": 3682,
-                    "rank": 685115,
+                    "rank": 685337,
                     "level": 18,
                     "ehp": 0.02093
                 },
                 "magic": {
                     "metric": "magic",
-                    "experience": 12314,
-                    "rank": 673141,
+                    "experience": 12349,
+                    "rank": 673143,
                     "level": 29,
                     "ehp": 6e-05
                 },
                 "cooking": {
                     "metric": "cooking",
                     "experience": 2345,
-                    "rank": 987962,
+                    "rank": 988238,
                     "level": 14,
                     "ehp": 0.03156
                 },
                 "woodcutting": {
                     "metric": "woodcutting",
-                    "experience": 101932,
-                    "rank": 623725,
+                    "experience": 107894,
+                    "rank": 607396,
                     "level": 50,
                     "ehp": 2.32223
                 },
                 "fletching": {
                     "metric": "fletching",
                     "experience": 10,
-                    "rank": 822357,
+                    "rank": 822569,
                     "level": 1,
                     "ehp": 1e-05
                 },
                 "fishing": {
                     "metric": "fishing",
                     "experience": 1040,
-                    "rank": 1070682,
+                    "rank": 1071010,
                     "level": 9,
                     "ehp": 0.06933
                 },
                 "firemaking": {
                     "metric": "firemaking",
                     "experience": 102095,
-                    "rank": 598638,
+                    "rank": 598801,
                     "level": 50,
                     "ehp": 2.2551
                 },
                 "crafting": {
                     "metric": "crafting",
                     "experience": 817,
-                    "rank": 810325,
+                    "rank": 810559,
                     "level": 8,
                     "ehp": 0.01634
                 },
                 "smithing": {
                     "metric": "smithing",
                     "experience": 2399,
-                    "rank": 823436,
+                    "rank": 823654,
                     "level": 14,
                     "ehp": 0.03295
                 },
                 "mining": {
                     "metric": "mining",
                     "experience": 5130,
-                    "rank": 861364,
+                    "rank": 861612,
                     "level": 21,
                     "ehp": 0.2052
                 },
@@ -147,15 +147,15 @@
                 },
                 "agility": {
                     "metric": "agility",
-                    "experience": 273982,
-                    "rank": 395931,
+                    "experience": 274002,
+                    "rank": 395961,
                     "level": 60,
-                    "ehp": 3.97218
+                    "ehp": 3.97247
                 },
                 "thieving": {
                     "metric": "thieving",
                     "experience": 393868,
-                    "rank": 269296,
+                    "rank": 269421,
                     "level": 63,
                     "ehp": 4.21623
                 },
@@ -169,7 +169,7 @@
                 "farming": {
                     "metric": "farming",
                     "experience": 3,
-                    "rank": 592898,
+                    "rank": 593081,
                     "level": 1,
                     "ehp": 1e-05
                 },
@@ -189,17 +189,17 @@
                 },
                 "construction": {
                     "metric": "construction",
-                    "experience": 0,
-                    "rank": -1,
-                    "level": 1,
-                    "ehp": 0
+                    "experience": 939,
+                    "rank": 579230,
+                    "level": 8,
+                    "ehp": 0.04695
                 },
                 "sailing": {
                     "metric": "sailing",
-                    "experience": 0,
-                    "rank": -1,
-                    "level": 1,
-                    "ehp": 0
+                    "experience": 410,
+                    "rank": 137406,
+                    "level": 5,
+                    "ehp": 0.041
                 }
             },
             "bosses": {
@@ -697,13 +697,13 @@
             "computed": {
                 "ehp": {
                     "metric": "ehp",
-                    "value": 13.16973,
-                    "rank": 394347
+                    "value": 13.25797,
+                    "rank": 394323
                 },
                 "ehb": {
                     "metric": "ehb",
                     "value": 0,
-                    "rank": 438520
+                    "rank": 438702
                 }
             }
         }
