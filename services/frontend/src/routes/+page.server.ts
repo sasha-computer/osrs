@@ -24,7 +24,7 @@ export const load: PageServerLoad = async ({ fetch }) => {
   let events: unknown[] = [];
   try {
     const res = await fetch(
-      `${PB_URL}/api/collections/events/records?sort=-created&perPage=20&filter=(type!='LOGIN'%26%26type!='LOGOUT')`
+      `${PB_URL}/api/collections/events/records?sort=-created&perPage=20&filter=${encodeURIComponent("type!='LOGIN' && type!='LOGOUT'")}`
     );
     if (res.ok) {
       const data = await res.json();

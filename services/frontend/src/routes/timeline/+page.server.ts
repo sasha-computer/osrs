@@ -11,7 +11,7 @@ export const load: PageServerLoad = async ({ fetch, url }) => {
 
   let filter = "";
   if (typeFilter) {
-    filter = `&filter=(type='${typeFilter}')`;
+    filter = `&filter=${encodeURIComponent(`type='${typeFilter}'`)}`;
   }
 
   let events: unknown[] = [];
