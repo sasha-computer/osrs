@@ -14,6 +14,11 @@
       ...config,
     }));
 
+  // Reset events when navigating between filters
+  $effect(() => {
+    events = data.events as GameEvent[];
+  });
+
   onMount(() => {
     pb.collection("events").subscribe("*", (e) => {
       if (e.action === "create") {
