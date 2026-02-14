@@ -5,8 +5,8 @@
             "id": 0,
             "name": "Overall",
             "rank": -1,
-            "level": 422,
-            "xp": 922693
+            "level": 426,
+            "xp": 978804
         },
         {
             "id": 1,
@@ -68,15 +68,15 @@
             "id": 9,
             "name": "Woodcutting",
             "rank": -1,
-            "level": 50,
-            "xp": 107894
+            "level": 54,
+            "xp": 164001
         },
         {
             "id": 10,
             "name": "Fletching",
             "rank": -1,
             "level": 1,
-            "xp": 10
+            "xp": 14
         },
         {
             "id": 11,
@@ -130,7 +130,7 @@
         {
             "id": 18,
             "name": "Thieving",
-            "rank": 1305961,
+            "rank": 1306075,
             "level": 63,
             "xp": 393868
         },
@@ -172,7 +172,7 @@
         {
             "id": 24,
             "name": "Sailing",
-            "rank": 686453,
+            "rank": 686939,
             "level": 5,
             "xp": 410
         }
