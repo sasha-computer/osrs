@@ -8,8 +8,8 @@
   <header>
     <nav>
       <a href="/" class="logo">
-        <span class="logo-icon">⚔️</span>
-        <span class="logo-text">WoodFiveMan</span>
+        <img src="/ironman.png" alt="Ironman" class="logo-icon" />
+        <a href="https://wiseoldman.net/players/WoodFiveMan" target="_blank" rel="noopener" class="logo-text">WoodFiveMan</a>
       </a>
       <div class="nav-links">
         <a href="/">Home</a>
@@ -61,7 +61,9 @@
   }
 
   .logo-icon {
-    font-size: 1.3rem;
+    height: 22px;
+    width: auto;
+    image-rendering: pixelated;
   }
 
   .logo-text {
