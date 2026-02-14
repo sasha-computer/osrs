@@ -7,10 +7,11 @@
 <div class="app">
   <header>
     <nav>
-      <a href="/" class="logo">
+      <div class="logo">
         <img src="/ironman.png" alt="Ironman" class="logo-icon" />
         <a href="https://wiseoldman.net/players/WoodFiveMan" target="_blank" rel="noopener" class="logo-text">WoodFiveMan</a>
-      </a>
+        <span class="live-dot" id="live-dot" title="Realtime connected"></span>
+      </div>
       <div class="nav-links">
         <a href="/">Home</a>
         <a href="/timeline">Timeline</a>
@@ -64,6 +65,20 @@
     height: 22px;
     width: auto;
     image-rendering: pixelated;
+  }
+
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    background: var(--green);
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
   }
 
   .logo-text {

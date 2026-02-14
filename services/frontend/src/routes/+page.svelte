@@ -6,18 +6,14 @@
 
   let { data } = $props();
   let events = $state(data.events as GameEvent[]);
-  let live = $state(false);
 
   onMount(() => {
-    // Subscribe to realtime events
     pb.collection("events").subscribe("*", (e) => {
       if (e.action === "create") {
-        // Don't show login/logout in feed
         if (e.record.type === "LOGIN" || e.record.type === "LOGOUT") return;
         events = [e.record as unknown as GameEvent, ...events].slice(0, 50);
       }
     });
-    live = true;
 
     return () => {
       pb.collection("events").unsubscribe("*");
@@ -34,16 +30,6 @@
 <svelte:head>
   <title>WoodFiveMan -- Ironman Progress</title>
 </svelte:head>
-
-<div class="hero">
-  <h1>
-    WoodFiveMan
-    {#if live}
-      <span class="live-dot" title="Live updates active"></span>
-    {/if}
-  </h1>
-  <p class="subtitle">Ironman account tracker</p>
-</div>
 
 <section class="section">
   <h2>Skills</h2>
@@ -75,43 +61,6 @@
 </section>
 
 <style>
-  .hero {
-    margin-bottom: 2.5rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .live-dot {
-    width: 8px;
-    height: 8px;
-    background: var(--green);
-    border-radius: 50%;
-    display: inline-block;
-    animation: pulse 2s ease-in-out infinite;
-  }
-
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.4;
-    }
-  }
-
-  .subtitle {
-    color: var(--subtext0);
-    font-size: 0.95rem;
-    margin-top: 0.25rem;
-  }
-
   .section {
     margin-bottom: 2.5rem;
   }
