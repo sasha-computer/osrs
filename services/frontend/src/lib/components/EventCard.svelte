@@ -76,6 +76,7 @@
         return (extra.task as string) || "";
       case "CHAT": {
         const msg = (extra.message as string) || "";
+        if (msg === "::TriggerDink") return "Manual test";
         return msg;
       }
       default:
